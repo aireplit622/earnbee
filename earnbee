@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EarnBee – Rewards Platform</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #333;
+}
+
+header {
+  background: #1e88e5;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  background: #1e88e5;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 30px 20px;
+  background: #fff;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.section h3 {
+  margin-top: 0;
+  color: #1e88e5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #f1f3f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.dashboard {
+  background: #fff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #1e88e5;
+  color: white;
+  margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>EarnBee</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Earn</a>
+    <a href="#">Refer</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Earn Rewards by Completing Simple Tasks</h2>
+  <p>Watch • Click • Refer • Earn</p>
+  <button>Sign Up Free</button>
+  <button>How It Works</button>
+</div>
+
+<div class="section">
+  <h3>How It Works</h3>
+  <div class="grid">
+    <div class="card">1️⃣ Sign up for free</div>
+    <div class="card">2️⃣ Complete simple tasks</div>
+    <div class="card">3️⃣ Redeem rewards</div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Ways to Earn</h3>
+  <div class="grid">
+    <div class="card">🎯 Offer Tasks</div>
+    <div class="card">👥 Refer & Earn</div>
+    <div class="card">📺 Watch Content</div>
+    <div class="card">📝 Surveys (Coming Soon)</div>
+  </div>
+</div>
+
+<div class="dashboard">
+  <h3>User Dashboard (Demo)</h3>
+  <p><strong>Total Balance:</strong> 120 Points</p>
+  <p><strong>Completed Tasks:</strong> 5</p>
+  <p><strong>Pending Tasks:</strong> 2</p>
+  <button onclick="alert('Task proof form coming soon')">
+    Submit Task Proof
+  </button>
+</div>
+
+<div class="section">
+  <h3>Refer & Earn</h3>
+  <p>Your Referral Code: <strong>EARN123</strong></p>
+  <p>Earn 10% bonus from each referral</p>
+</div>
+
+<div class="section">
+  <h3>Redeem Rewards</h3>
+  <p>Minimum Redemption: 500 Points</p>
+  <p>Processing Time: 7–14 Days</p>
+  <p>UPI / Paytm (Coming Soon)</p>
+</div>
+
+<div class="footer">
+  <p>© 2025 EarnBee</p>
+  <p>Privacy Policy | Terms & Conditions</p>
+</div>
+
+</body>
+</html>
